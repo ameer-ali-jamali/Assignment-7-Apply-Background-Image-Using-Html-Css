@@ -18,3 +18,9 @@ form {
     position: relative;
     padding-left: 21px;
 }
+
+select {
+    background-color: darkturquoise;
+    width: 122px;
+    margin-left: 20%;
+}
