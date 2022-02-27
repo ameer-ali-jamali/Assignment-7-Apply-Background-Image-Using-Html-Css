@@ -1,0 +1,35 @@
+body {
+    background-image: url(./Images/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    margin-left: 30rem;
+    margin-top: 10rem;
+    background-image: url(/Images/images.jpg);
+    position: absolute;
+    width: 318px;
+    height: 139px;
+}
+
+.form-btn {
+    font-weight: bold;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+form {
+    position: relative;
+    padding-left: 28px;
+    padding-top: 21px;
+}
+
+input[type="text"] {
+    background-color: red;
+}
+
+input[type="reset"] {
+    background-color: yellow;
+}
