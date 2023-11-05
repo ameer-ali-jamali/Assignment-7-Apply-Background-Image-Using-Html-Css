@@ -1,0 +1,33 @@
+/* Set the background image for the body and style text */
+body {
+  background-image: url(./Images/image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+/* Style the container div */
+.container {
+  margin-left: 26rem;
+  margin-top: 9rem;
+  background-image: url(/Images/images.jpg);
+  position: absolute;
+  width: 540px;
+  height: 266px;
+  /* Add padding and a border to the container for better separation */
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Style the form inside the container */
+form {
+  position: relative;
+  padding-left: 21px;
+}
+
+/* Style the select element with an ID of "select" */
+#select {
+  background-color: darkturquoise;
+  width: 122px;
+  margin-left: 20%;
+}
