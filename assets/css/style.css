@@ -1,33 +1,54 @@
-/* Set the background image for the body and style text */
 body {
-  background-image: url(./Images/image.jpg);
+  background-image: url("/assets/images/bg1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  background-attachment: fixed;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-/* Style the container div */
 .container {
-  margin-left: 26rem;
-  margin-top: 9rem;
-  background-image: url(/Images/images.jpg);
-  position: absolute;
-  width: 540px;
-  height: 266px;
-  /* Add padding and a border to the container for better separation */
+  background-image: url("/assets/images/bg2.jpg");
+  background-size: cover;
+  max-width: 540px;
+  margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-top: 13rem;
 }
 
-/* Style the form inside the container */
 form {
-  position: relative;
-  padding-left: 21px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Style the select element with an ID of "select" */
 #select {
   background-color: darkturquoise;
-  width: 122px;
-  margin-left: 20%;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+button[type="submit"] {
+  background-color: darkturquoise;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #008b8b;
 }
